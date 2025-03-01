@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif; 
+}
+
+body{
+    background-image: url('https://media-hosting.imagekit.io//f91f4362abb24f3d/Screenshot%202025-02-28%20at%205.00.51%20PM.png?Expires=1835391687&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Hb1TbvQXi9mR9eryOAWcH3AmsI4QTIPgqN0rf9h2tK734MhXbfLbnKIkAOJC0qZUecDguWIGJx08roFLw42YHx-igRLM4DXoDkTtDJMHzSf~5bTxVbgVoe5wB8NltNwypyZWHZbe7~nCcRnpa~7KfrrWDea-8RMxXPixWOlQ-2LFd810Z~5Xwb2NasUdVWC5DQ6fB7KiWEH2USCwsgGIiG5hjDZk769wJmzBHf8O3bHbSLw4pFaAicM3FPuUx63O6vcOezB-lB4KPVwYbt0PLV0rbFp06vZ2l5k-rGA8Kw8KvwZsMqnlS9SUATAtUYg1F~8~cWUpZOlaqzi6DTr9SA__');
+    background-size: 1000px;
+    background-image: no-repeat;
+    background-position: center;
+    margin: auto;
+    background: no-repeat;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #073228;
+}
+header .navbar{
+    display: flex;
+    padding: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-content{
+    margin: 0 auto;
+    max-width: 1300;
+    padding: 0 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 650px;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-logo .logo-text{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.navbar .nav-menu .nav-link{
+    color: whitesmoke;
+    padding: 10px, 20px;
+    background: #073228;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.22s ease-in;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: #073228;
+    background: #F2DF00;
+    padding: 3px;
+    height: 10px;
+}
+.hero-section{
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.hero-section .hero-image-wrapper{
+    max-width: 600px;
+    margin-right: auto;
+    align-items: left;
+}
+
+.hero-section .hero-details .button{
+    padding: 15px, 20px;
+    color: #073228;
+    border: 3px solid;
+    border-radius: 35px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin: auto;
+    display: flex;
+    background:none;
+    text-decoration: none;
+}
+
+.hero-section .hero-details .button{
+    margin: auto;
+    display: flex;
+}
+
+.hero-section .hero-details .button:hover{
+    color: white;
+    border-color: whitesmoke;
+    background: #F2DF00;
+    display: flex;
+
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    outline-color: aliceblue;
+    width: 100px;
+}
+
+h2{
+    font-size: 50px;
+    color: #073228;
+    width: 400px;
+}
+
+h3{
+    font-size: 30px;
+    width: 400px;
+    color: darkgoldenrod;
+}
+
+p{
+    font-size: 20px;
+    width: 400px;
+    color: black;
+}
+
+p .emoji{
+    size: 50px;
+}

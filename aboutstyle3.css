@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif; 
+}
+
+body{
+    background: none;
+
+    margin: auto;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #073228;
+}
+header .navbar{
+    display: flex;
+    padding: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-content{
+    margin: 0 auto;
+    max-width: 1300;
+    padding: 0 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 650px;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-logo .logo-text{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.navbar .nav-menu .nav-link{
+    color: whitesmoke;
+    padding: 10px, 20px;
+    background: #073228;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.22s ease-in;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: #073228;
+    background: #F2DF00;
+    padding: 3px;
+    height: 10px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    outline-color: aliceblue;
+    max-width: 100px;
+    margin: auto;
+}
+
+h2{
+    font-size: 50px;
+    color: #073228;
+    max-width: 600px;
+    display: flex;
+}
+
+h3{
+    font-size: 30px;
+    max-width: 600px;
+    display: flex;
+}
+
+p{
+    font-size: 20px;
+    max-width: 600px;
+
+}
+
+p{
+    color: black;
+}

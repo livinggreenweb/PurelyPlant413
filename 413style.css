@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif; 
+}
+
+body{
+    background-image: url(https://media-hosting.imagekit.io//3f05b654782d4153/bba09264-3272-4ca0-ba70-eebda0612f0c.jpg?Expires=1835372294&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=u0toT2GkBdLOAslKMYxHLRKl6yk2Nmsms9pcENdH6bGt5k-KHJkFje~AwPM1EP7Y5N~RyZEbEZ~duVP9mKeYaICZwvIKQzKJK83o79lk1-CX8FrM9eAwoLUsXy0bJ5sjr9TcLKam-hDzNY6ADgCMo26yIhB6oXnK5SnrucSkG4HVwaaX~DwHLY49d5Zfq1faFHlwwxq7L9jhioDr9paSsod7lRagR5qRNvXUsxj7YFpVElwV5Sc60fMIZeeDOgaPdz2Z9FaFrpxWJbI9j~B9B1EU7Vliysvg2-1~PCHf2BUTJWIUf4uIY~OLAyH0pQ858UiR~HAi3XRdXYVjOCvTow__);
+    background-size: 2000px;
+    background-image: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #073228;
+}
+header .navbar{
+    display: flex;
+    padding: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-content{
+    margin: 0 auto;
+    max-width: 1300;
+    padding: 0 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 650px;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-logo .logo-text{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.navbar .nav-menu .nav-link{
+    color: whitesmoke;
+    padding: 10px, 20px;
+    background: #073228;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.22s ease-in;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: #073228;
+    background: #F2DF00;
+    padding: 3px;
+    height: 10px;
+}
+.hero-section{
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.hero-section .hero-image-wrapper{
+    max-width: 600px;
+    margin-right: auto;
+    align-items: left;
+}
+
+.hero-section .hero-details .button{
+    padding: 15px, 20px;
+    color: #073228;
+    border: 3px solid;
+    border-radius: 35px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin: auto;
+    display: flex;
+    background:none;
+    text-decoration: none;
+}
+
+.hero-section .hero-details .button{
+    margin: auto;
+    display: flex;
+}
+
+.hero-section .hero-details .button:hover{
+    color: white;
+    border-color: whitesmoke;
+    background: #F2DF00;
+    display: flex;
+
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    outline-color: aliceblue;
+    width: 100px;
+}
+
+h2{
+    font-size: 50px;
+    color: #F2DF00;
+    max-width: 400px;
+    display: flex;
+}
+
+h3{
+    font-size: 30px;
+    max-width: 600px;
+    display: flex;
+}
+
+p{
+    font-size: 20px;
+    max-width: 600px;
+
+}
+
+.hero-details .intro{
+    color: #073228;
+    margin: 10px;
+    font-size: 50px;
+    max-width: 500px;
+}
+
+.hero-details .subtitle{
+    color: #FFC300;
+    margin: 10px;
+    font-size: 27px;
+    max-width: 500px;
+}
+
+.hero-details .description{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 18px;
+    max-width: 500px;
+}
